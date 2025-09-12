@@ -24,6 +24,7 @@ nav a:hover {
     background-color: rgb(78, 175, 255);
     color: white;
     border-radius: 5px;
+    border-style: double;
 }
 
 div {
@@ -38,6 +39,8 @@ div {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     border-radius: 25px;
     margin-top: 20px;
 }
