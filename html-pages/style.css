@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(78, 175, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 nav {
@@ -18,13 +18,14 @@ nav a {
     font-size: 20px;
     margin: 0 15px;
     padding: 5px 50px;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    background-color: rgb(78, 175, 255);
+    background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 5px;
-    border-style: double;
+    border-style: none;
 }
 
 div {
@@ -36,6 +37,7 @@ div {
     margin-right: auto;
     width: 60%;
     border-radius: 25px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -43,4 +45,29 @@ img {
     height: auto;
     border-radius: 25px;
     margin-top: 20px;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border-style:none;
+    transition: 0.3s;
+}
+
+h1, h2 {
+    text-align: center;
 }
