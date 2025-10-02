@@ -1,5 +1,5 @@
-body::before {
-    background: url('beach.jpg') no-repeat center center fixed;
+body ::before {
+    background: url("noon.jpg") no-repeat center center fixed;
     content: "";
     background-size: cover;
     position: fixed;
